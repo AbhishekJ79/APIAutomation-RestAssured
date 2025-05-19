@@ -1,0 +1,13 @@
+<Configuration status ="WARN">
+  <Appenders>
+      <Console name="console" target="SYSTEM_OUT">
+       <PatternLayout ></PatternLayout>
+      </Console>
+
+      <File name="file" fileName="logs/test.log">
+
+      </File>
+  </Appenders>
+
+</Configuration>
+
